@@ -100,7 +100,7 @@ export const world_manager = (() => {
     }
 
     Add(client, params) {
-      const models = ["sorceror", "paladin", "oldguy"];
+      const models = ["sorceror", "paladin", "oldguy", "ninja"];
       const randomClass = models[Math.floor(Math.random() * models.length)];
 
       // Hack
