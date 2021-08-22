@@ -32,7 +32,7 @@ export const world_entity = (() => {
 
       // HACK
       this.accountInfo_ = {
-        name: params.account.accountName,
+        name: params.account,
       };
       this.characterDefinition_ = params.character.definition;
       this.characterInfo_ = {
