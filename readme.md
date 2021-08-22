@@ -13,3 +13,9 @@ run from the repo root folder:
 npm start
 
 ```
+
+refs:
+https://github.com/simondevyoutube/Quick_3D_MMORPG
+https://www.mixamo.com/
+https://www.blender.org/
+https://www.npmjs.com/
