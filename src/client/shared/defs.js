@@ -27,6 +27,33 @@ export const defs = (() => {
       },
       name: 'Oldguy'
     },
+    ninja: {
+      base: 'ninja.glb',
+      path: './resources/characters/',
+      anchors: {
+        rightHand: 'LeftFoot'
+      },
+      nameOffset: 11,
+      attack: {
+        timing: 0.35,
+        cooldown: 1.0,
+        type: 'magic',
+        range: 10
+      },
+      scale: 6.0,
+      inventory: {},
+      stats: {
+        health: 200,
+        maxHealth: 200,
+        strength: 50,
+        wisdomness: 50,
+        benchpress: 20,
+        curl: 100,
+        experience: 0,
+        level: 100
+      },
+      name: 'Ninja'
+    },
     paladin: {
       base: 'paladin.glb',
       path: './resources/characters/',
